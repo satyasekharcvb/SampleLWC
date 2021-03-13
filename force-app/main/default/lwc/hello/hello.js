@@ -5,5 +5,6 @@ export default class Hello extends LightningElement {
   
   
   
-                      greeting = "World";
+                    
+                        greeting = "World";
 }
