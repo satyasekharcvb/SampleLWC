@@ -12,10 +12,8 @@
     "test:unit:watch": "sfdx-lwc-jest --watch",
     "test:unit:debug": "sfdx-lwc-jest --debug",
     "test:unit:coverage": "sfdx-lwc-jest --coverage",
-    "postinstall": "npm install husky && npx husky init",
     "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
-    "prettier:verify": "prettier --list-different \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
-    "prepare": "husky install"
+    "prettier:verify": "prettier --list-different \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\""
   },
   "devDependencies": {
     "@prettier/plugin-xml": "^0.12.0",
@@ -27,8 +25,5 @@
     "lint-staged": "^10.0.7",
     "prettier": "^2.0.5",
     "prettier-plugin-apex": "^1.6.0"
-  },
-  "dependencies": {
-    "husky": "^5.1.3"
   }
 }
